@@ -2,10 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load your dataset
+# Read the benchmark results.
 df = pd.read_csv('results_all.csv')
 
-# Set aesthetic style
+# Use the same theme across plots.
 sns.set_theme(style="whitegrid")
 
 # 1. Success Rate Comparison
